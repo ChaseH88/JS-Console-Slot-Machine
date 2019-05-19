@@ -1,0 +1,17 @@
+body.winner {animation: winner 1s infinite;}
+
+#slotMachine {max-width: 75vw; margin: 0 auto; text-align: center;}
+#slotMachine p {margin: 0 0 30px;}
+#slotMachine button {cursor: pointer; font-weight: bold; padding: 5px 15px; background: #252525; border: 1px solid transparent; color: #f3f3f3; font-size: 16px;}
+#slotMachine button:hover, #slotMachine button:focus {background: #f3f3f3; border-color: #252525; color: #252525;}
+#stats {margin: 20px 0 0;}
+#stats span {display: inline-block; margin: 0 5px;}
+#numbers {letter-spacing: 10px; font-size: 50px; font-weight: bold; font-family: sans-serif; margin: 20px 0 0;}
+
+@keyframes winner {
+  0%   { background-color: #fff; }
+  49% { background-color: #fff; }
+  50% { background-color: #eeefac; }
+  99% { background-color: #eeefac; }
+  100% { background-color: #fff; }
+}
